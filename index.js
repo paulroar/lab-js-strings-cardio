@@ -7,6 +7,7 @@ const string1 = "My favorite dessert is jello";
 
 // Your code here...
 
+console.log(string1.slice(23, 24));
 
 
 
@@ -19,7 +20,11 @@ const string2 = "ABCDEFGHJKLO";
 
 // Your code here...
 
+const firstLetter =  string2.slice(2,3);
+const secondLetter = string2.slice(11,12);
+const thirdLetter = string2.slice(10,11);
 
+console.log(`${firstLetter}${secondLetter}${secondLetter}${thirdLetter}`);
 
 
 /*****************************************************
@@ -29,8 +34,10 @@ const string2 = "ABCDEFGHJKLO";
 
 const string3 = "Na";
 
+
 // Your code here...
 
+console.log(string3.repeat(5));
 
 
 
