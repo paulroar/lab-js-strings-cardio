@@ -33,11 +33,11 @@ console.log(`${firstLetter}${secondLetter}${secondLetter}${thirdLetter}`);
 // Using the method .repeat() and the provided string, print out the text "NaNaNaNa Batman!" in the console.
 
 const string3 = "Na";
-
+const bruce = "Batman!";
 
 // Your code here...
 
-console.log(string3.repeat(5));
+console.log(`${string3.repeat(4)} ${bruce}`);
 
 
 
@@ -50,7 +50,7 @@ const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pinea
 
 // Your code here...
 
-
+    console.log(fruit.slice(48, 53));
 
 /***************************************************
     Iteration 5 | Check If Strings Include a Word
@@ -66,11 +66,21 @@ const funnyHeadline2 = "Students Cook & Serve Grandparents";
 // Check the first headline
 // Your code here ...
 
+if (funnyHeadline1.includes("oxygen")) {
+    console.log("The string includes the word 'oxygen'")
+} else {
+    console.log("The string does not include the word 'oxygen'")
+}
+
 
 // Check the second headline
 // Your code here ...
 
-
+if (funnyHeadline2.includes("oxygen")) {
+    console.log("The string includes the word 'oxygen'");
+} else {
+    console.log("The string does not include the word 'oxygen'");
+}
 
 /*******************************************
        Iteration 6 | String Length
@@ -83,6 +93,9 @@ const string4 = "zEAWrTC9EgtxmK9w1";
 // a) Print the string length
 // Your code here ...
 
+console.log(string4.length);
 
 // b) Print the last character in the string
 // Your code here ...
+
+console.log(string4.slice(16,17));
